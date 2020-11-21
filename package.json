@@ -1,0 +1,23 @@
+{
+  "name": "fin-app",
+  "version": "1.0.0",
+  "description": "An app for financial management",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/DanicoSantos/fin-app.git",
+  "keywords": [],
+  "author": "Daniel Santos <dados.dan.santos@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanicoSantos/fin-app/issues"
+  },
+  "homepage": "https://github.com/DanicoSantos/fin-app#readme",
+  "dependencies": {
+    "next": "^10.0.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
