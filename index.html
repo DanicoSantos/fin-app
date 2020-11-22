@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Simple Interest Calculation:</h2>
+    <form action="
+        ">
+        <div>
+            <label htmlFor="">Capital</label>
+            <input type="text" name="capital" placeholder="Insert the initial value" />
+        </div>
+
+        <div>
+            <label htmlFor="">Interest</label>
+            <input type="text" name="interest" placeholder="Insert the interest" />
+        </div>
+
+        <div>
+            <label htmlFor="">How long?</label>
+            <input type="text" name="period" placeholder="Insert the period of time" />
+        </div>
+        <div><input type="submit" onclick="calculateFutureValue" /></div>
+    </form>
+    <div id="result"></div>
+
+    <script>
+        const calculateFutureValue = () => {
+            const capital = document.querySelector('input[name="capital"]');
+            const interest = document.querySelector('input[name="interest"]');
+            const period = document.querySelector('input[name="period"]');
+            const resultContainer = document.querySelector('#result');
+            
+            console.log(capital);
+        
+        }
+    </script>
+</body>
+
+</html>
